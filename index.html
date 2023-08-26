@@ -5,38 +5,43 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
   
   <title>Frontend Mentor | Base Apparel coming soon page</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 
   <style>
     .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
   </style>
+  -->
 </head>
 <body>
-  <div class="container" style="background-image:url(images/bg-pattern-desktop.svg);">
-    <div>
-      <header>
+  <div class="container">
+    <div class="left" style="background-image:url(images/bg-pattern-desktop.svg);">
+      <div class="up">
         <img src="images/logo.svg" alt="base apparel logo" class="logo">
-      </header>
-      <section>
-        <h1>We're</h1>
-        <h2>coming soon</h2>
-        <p class="texto">Hello fellow shoppers! We're currently building our new fashion store. 
-          Add your email below to stay up-to-date with announcements and our launch deals.</p>
-      </section>
+        
+        <div class="content">
+          <h1>We're</h1>
+          <h2>coming soon</h2>
+          <p class="texto">Hello fellow shoppers! We're currently building our new fashion store. 
+            Add your email below to stay up-to-date with announcements and our launch deals.</p>
+        </div>
+      </div>
+      <div class="down">
+        <input type="text" name="email" id="email" placeholder="Email Address">
+        <button><img src="images/icon-arrow.svg" alt="Send Email"></button>
+       <!-- <p class="email-box"> Email Address</p>
+        <img src="images/icon-error.svg" alt="error">
+        <a href="#" class="send-button"><img src="images/icon-arrow.svg" alt="send-button"></a>
+      -->
+      </div>
     </div>
-    <div>
-      <p class="email-box"> Email Address</p>
-      <img src="images/icon-error.svg" alt="error">
-      <a href="#" class="send-button"><img src="images/icon-arrow.svg" alt="send-button"></a>
-    </div>
+    <div class="right">
+      <img src="images/hero-desktop.jpg" alt="women image" class="women">
+    </div>  
   </div>
-  <div class="image-left">
-    <img src="images/hero-desktop.jpg" alt="women image" class="women">
-  </div>  
-
  
   <footer>
     <p class="attribution">
