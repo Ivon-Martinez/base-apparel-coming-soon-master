@@ -92,7 +92,14 @@ button{
 ::-webkit-input-placeholder {
     color: #ef9b9ba8 ;
 }
-
+.alert{
+    color: #ef2f2f;
+    font-size: 10px;
+    position: relative;
+    bottom: 45px;
+    margin: 0px;
+    padding-left: 25px;
+}
 
    
 

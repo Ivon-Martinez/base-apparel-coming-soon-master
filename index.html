@@ -17,7 +17,7 @@
   -->
 </head>
 <body>
-  <div class="container">
+  <div class="container" >
     <div class="left" style="background-image:url(images/bg-pattern-desktop.svg);">
       <div class="up">
         <img src="images/logo.svg" alt="base apparel logo" class="logo">
@@ -31,8 +31,12 @@
         </div>
       </div>
       <div class="down">
-        <input type="text" name="email" id="email" placeholder="Email Address" class="correo">
-        <button><img src="images/icon-arrow.svg" alt="Send Email"></button>
+        <form name="form1" action="#"> 
+        <input type="text" name="email" id="email" placeholder="Email Address"  class="correo">
+        <button><img src="images/icon-arrow.svg" alt="submit" type="submit" value="submit" onclick="validateEmail(document.form1.email)"></button>
+        </form>
+       <!-- <p class="alert">Please provide a valid email</p>-->
+       <p id="demo"></p>
       </div>
     </div>
     <div class="right">
@@ -46,5 +50,32 @@
       Coded by <a href="#">Ivon</a>.
     </p>
   </footer>
+
+<script>
+  class mensajeError {
+    constructor(mensaje){
+    this.mensaje=mensaje;
+    }
+  }
+
+  const myMensaje=new mensajeError("Please provide a valid email");
+  
+  function validateEmail(emailId)
+  {
+    var mailformat = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
+    if(emailId.value.match(mailformat))
+    {document.form1.text1.focus();
+    return true;
+    }
+    else{
+      //alert("Please provide a valid email");
+      //document.form1.text1.focus();
+      document.getElementById("demo").innerHTML=myMensaje.mensaje;
+      return false;
+    }
+
+  }
+</script>
+
 </body>
 </html>
