@@ -6,11 +6,16 @@ body{
     background: linear-gradient(to bottom right, white,hsl(332, 39%, 94%));
     font-size: 18px;
     height: 100vh;
+
+    
 }
 .container{
     background: linear-gradient(to bottom right, white,hsl(332, 39%, 94%));
+   
     display:grid;
     grid-template-columns: 55% auto;
+   
+    
 }
 .logo{
     width:120px;
