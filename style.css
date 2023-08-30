@@ -6,17 +6,12 @@ body{
     background: linear-gradient(to bottom right, white,hsl(332, 39%, 94%));
     font-size: 18px;
     height: 100vh;
-
-    
 }
 .container{
     background: linear-gradient(to bottom right, white,hsl(332, 39%, 94%));
-   
-    display:grid;
-    grid-template-columns: 55% auto;
-   
-    
 }
+
+
 .logo{
     width:120px;
     margin-top: 70px;
@@ -66,6 +61,7 @@ h3{
 .down{
     padding-left: 250px;
 }
+
 input{
     width: 300px;
     padding: 8px;
@@ -106,6 +102,19 @@ button{
     padding-left: 25px;
 }
 
+
    
 
- 
+.container{
+    display: grid;
+    grid-template-columns: 55% auto;
+
+
+}
+
+/*@media only screen and (min-width:1024) {
+   .logo{
+    margin:1em 0;
+   }
+    
+}*/
