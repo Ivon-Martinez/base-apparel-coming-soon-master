@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
 
+
 body{
     margin: 0;
-    font-family: system-ui;
     background: linear-gradient(to bottom right, white,hsl(332, 39%, 94%));
     font-size: 18px;
     height: 100vh;
@@ -11,55 +11,55 @@ body{
     background: linear-gradient(to bottom right, white,hsl(332, 39%, 94%));
 }
 
-
 .logo{
-    width:120px;
+    width:130px;
     margin-top: 70px;
-    padding-left: 250px;
+    /*padding-left: 250px;*/
 }
 h1{
     color: #a826268a;
     font-size: 50px;
-    font-weight: 10;
-    font-family: inherit;
+    font-weight: 300;
+    font-family: Josefin Sans;
     letter-spacing: 13px;
-    padding-left: 250px;
+    /*padding-left: 250px;*/
     position: relative;
     top: 75px;
     
 }
 h2{
-    font-family: inherit;
+    font-family: Josefin Sans;
     font-size: 50PX;
-    font-weight: 500;
+    font-weight: 600;
     letter-spacing: 13PX;
-    padding-left: 250px;
+    /*padding-left: 250px;*/
     line-height: 55px;
     padding-top: 30px;
 }
 h3{
-    font-family: inherit;
+    font-family: Josefin Sans;
     font-size: 50PX;
-    font-weight: 500;
+    font-weight: 600;
     letter-spacing: 13PX;
-    padding-left: 250px;
+    /*padding-left: 250px;*/
     line-height: 55px;
     position: relative;
     top: -48px;
 }
 .texto{
     font-size: 13px;
+    font-weight: 600;
     color: #a826268a;
-    font-family: inherit;
+    font-family: Josefin Sans;
     letter-spacing: -0.5px;
-    padding-left: 250px;
+    /*padding-left: 250px;*/
     line-height: 22px;
     position: relative;
     bottom: 70px;
     padding-right: 180px;
 }
 .down{
-    padding-left: 250px;
+     /*padding-left: 250px;*/
 }
 
 input{
@@ -68,7 +68,7 @@ input{
     font-size: 10px;
     padding-left: 25px;
     outline: none;
-    margin: 0px;
+    /*margin: 0px;*/
     border-radius: 50px 50px 50px 50px;
     border-color:#ef9b9ba8 ;
     border-width: 1px;
@@ -76,6 +76,7 @@ input{
     background: linear-gradient(to bottom right, white,hsl(332, 39%, 94%));
     position: relative;
     bottom: 50px;
+    font-family: Josefin Sans;
 }
 button{
     width:80px;
@@ -96,25 +97,28 @@ button{
 .alert{
     color: #ef2f2f;
     font-size: 10px;
+    font-family: Josefin Sans;
     position: relative;
     bottom: 45px;
-    margin: 0px;
+    /*margin: 0px;*/
     padding-left: 25px;
 }
 
 
    
 
-.container{
+/*.container{
     display: grid;
     grid-template-columns: 55% auto;
 
 
+}*/
+.women{
+    width: 100%;
 }
 
-/*@media only screen and (min-width:1024) {
-   .logo{
-    margin:1em 0;
-   }
+@media only screen and (min-width:375px) {
+    display: grid;
+    grid-template-columns: 55% auto;
     
-}*/
+}
