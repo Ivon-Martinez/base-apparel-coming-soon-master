@@ -4,7 +4,7 @@
 body{
     margin: 0;
     background: linear-gradient(to bottom right, white,hsl(332, 39%, 94%));
-    font-size: 18px;
+    font-size: 16px;
     height: 100vh;
 }
 .container{
@@ -12,33 +12,40 @@ body{
 }
 
 .logo{
-    width:130px;
-    margin-top: 70px;
-    /*padding-left: 250px;*/
+    width:150px;
+    margin-top: 6%;
+    padding-left:8%;
+}
+.contenido{
+    margin: auto;
+}
+.down{
+    margin: auto;
 }
 h1{
     color: #a826268a;
-    font-size: 50px;
+    font-size: 63px;
     font-weight: 300;
     font-family: Josefin Sans;
-    letter-spacing: 13px;
+    letter-spacing: 15px;
     /*padding-left: 250px;*/
     position: relative;
-    top: 75px;
+    top: 95px;
     
 }
 h2{
     font-family: Josefin Sans;
-    font-size: 50PX;
+    font-size: 63px;
     font-weight: 600;
     letter-spacing: 13PX;
     /*padding-left: 250px;*/
     line-height: 55px;
-    padding-top: 30px;
+    padding-top: 55px;
+    
 }
 h3{
     font-family: Josefin Sans;
-    font-size: 50PX;
+    font-size: 63px;
     font-weight: 600;
     letter-spacing: 13PX;
     /*padding-left: 250px;*/
@@ -47,16 +54,16 @@ h3{
     top: -48px;
 }
 .texto{
-    font-size: 13px;
-    font-weight: 600;
+    font-size: 16px;
+    font-weight: 500;
     color: #a826268a;
     font-family: Josefin Sans;
     letter-spacing: -0.5px;
     /*padding-left: 250px;*/
-    line-height: 22px;
+    line-height: 28px;
     position: relative;
-    bottom: 70px;
-    padding-right: 180px;
+    bottom: 80px;
+    padding-right: 200px;
 }
 .down{
      /*padding-left: 250px;*/
@@ -64,7 +71,7 @@ h3{
 
 input{
     width: 300px;
-    padding: 8px;
+    padding: 10px;
     font-size: 10px;
     padding-left: 25px;
     outline: none;
@@ -83,7 +90,7 @@ button{
     background: linear-gradient(to bottom right, #ef9b9ba8,#a826269e);
     border: none;
     border-radius: 50px 50px 50px 50px;
-    padding: 9px;
+    padding: 11px;
     outline: none;
     margin: -85px;
     cursor: pointer;
@@ -115,10 +122,36 @@ button{
 }*/
 .women{
     width: 100%;
+    visibility: hidden;
+    
 }
 
-@media only screen and (min-width:375px) {
+
+@media only screen and (min-width:950px) {
+    .container{
     display: grid;
     grid-template-columns: 55% auto;
+    
+    }
+    .women{
+    visibility: visible;
+    height:100vh;
+    }
+    .left{
+        margin-top:10%;
+        margin-left: 20%;
+       /* position:relative;
+        left: 100px;
+        width: calc(100% - 100px);*/
+    }
+    .logo{
+        margin-top: 2%;
+    padding-left:0%;
+    }
+  
+   
+    
+    
+   
     
 }
