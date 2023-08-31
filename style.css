@@ -9,6 +9,7 @@ body{
 }
 .container{
     background: linear-gradient(to bottom right, white,hsl(332, 39%, 94%));
+   
 }
 
 .logo{
@@ -18,6 +19,8 @@ body{
 }
 .contenido{
     margin: auto;
+    text-align: center;
+    
 }
 .down{
     margin: auto;
@@ -31,6 +34,7 @@ h1{
     /*padding-left: 250px;*/
     position: relative;
     top: 95px;
+    
     
 }
 h2{
@@ -65,9 +69,7 @@ h3{
     bottom: 80px;
     padding-right: 200px;
 }
-.down{
-     /*padding-left: 250px;*/
-}
+
 
 input{
     width: 300px;
@@ -131,11 +133,15 @@ button{
     .container{
     display: grid;
     grid-template-columns: 55% auto;
-    
+   
     }
     .women{
     visibility: visible;
     height:100vh;
+    }
+    .mujer_mobile{
+        visibility: hidden;
+        position: relative;
     }
     .left{
         margin-top:10%;
@@ -146,9 +152,28 @@ button{
     }
     .logo{
         margin-top: 2%;
-    padding-left:0%;
+        padding-left:0%;
+        width:150px;
     }
-  
+    .contenido{
+        position: absolute;
+        top: 12%;
+        text-align: left;
+        margin: auto;
+    }
+    
+   .texto{
+    padding-right: 60%;
+   }
+   .down{
+    
+    position: absolute;
+        top: 83%;
+   
+   }
+   button{
+    margin: -80px;
+   }
    
     
     
