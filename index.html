@@ -36,10 +36,11 @@
       </div>
       
       <div class="down">
-        <form name="form1" action="#"> 
+        <form id="formulario" name="form1" action="#"> 
         <input type="text" name="email" id="email" placeholder="Email Address"  class="correo">
         <button><img src="images/icon-arrow.svg" alt="submit" type="submit" value="submit" onclick="validateEmail(document.form1.email)"></button>
         </form>
+        
        <p id="demo" class="demo"></p>
       </div>
     </div>
@@ -47,7 +48,7 @@
       <img src="images/hero-desktop.jpg" alt="women image" class="women">
     </div>  
   </div>
- 
+
   <footer>
     <p class="attribution" style="font-size: 10px; text-align: center;">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
@@ -66,6 +67,7 @@
   
   function validateEmail(emailId)
   {
+    //var formulario=document.getElementById("formulario");
     var mailformat = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
     if(emailId.value.match(mailformat))
     {document.form1.text1.focus();
@@ -75,6 +77,7 @@
       //alert("Please provide a valid email");
       //document.form1.text1.focus();
       document.getElementById("demo").innerHTML=myMensaje.mensaje;
+      //formulario.classList.add("invalid");
       return false;
     }
     

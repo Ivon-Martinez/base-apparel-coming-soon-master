@@ -30,16 +30,23 @@ body{
     text-align: -webkit-center;
     margin-left: -100px;
     
-
 }
+.correo{
+    background-image: url(images/icon-error.svg);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 235px;    
+    
+}
+
+
+
 .demo{
     color: #b71616cf;
     margin-top: -40px;
     font-family: Josefin Sans;
     font-size: 14px;
     
-
-
 }
 h1{
     color: #a826268a;
@@ -116,20 +123,27 @@ button{
 ::-webkit-input-placeholder {
     color: #ef9b9ba8 ;
 }
-.alert{
-    color: #ef2f2f;
-    font-size: 10px;
-    font-family: Josefin Sans;
+/*
+#formulario .down{
     position: relative;
-    bottom: 45px;
-    padding-left: 25px;
 }
+#formulario.invalid  .down:before{
+    content: '';
+    position: absolute;
+    right: 12px;
+    top: 12px;
+    width: 24px;
+    height: 24px;
+    background: url(images/icon-error.svg);
+    background-size: cover;
+    z-index: 1000;
+}*/
 
 .mujer_mobile{
     width: -webkit-fill-available;
     padding-top:8%;
 }
-   
+ 
 
 
 .women{
