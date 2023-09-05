@@ -2,19 +2,13 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
   
   <title>Frontend Mentor | Base Apparel coming soon page</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-  -->
 </head>
 <body>
   <div class="container" style="background-image:url(images/bg-pattern-desktop.svg); background-size: 100%;" >
@@ -67,17 +61,13 @@
   
   function validateEmail(emailId)
   {
-    //var formulario=document.getElementById("formulario");
     var mailformat = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
     if(emailId.value.match(mailformat))
     {document.form1.text1.focus();
     return true;
     }
     else{
-      //alert("Please provide a valid email");
-      //document.form1.text1.focus();
       document.getElementById("demo").innerHTML=myMensaje.mensaje;
-      //formulario.classList.add("invalid");
       return false;
     }
     

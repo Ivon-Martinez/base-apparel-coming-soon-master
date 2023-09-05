@@ -11,7 +11,6 @@ body{
     background-color: hsl(320, 12%, 95%);
     background-blend-mode: color;
     min-width: 375px;
-  
 }
 
 .logo{
@@ -36,7 +35,6 @@ body{
     background-repeat: no-repeat;
     background-position-y: center;
     background-position-x: 235px;    
-    
 }
 
 
@@ -46,7 +44,6 @@ body{
     margin-top: -40px;
     font-family: Josefin Sans;
     font-size: 14px;
-    
 }
 h1{
     color: #a826268a;
@@ -56,8 +53,6 @@ h1{
     letter-spacing: 15px;
     position: relative;
     top: 95px;
-    
-    
 }
 h2{
     font-family: Josefin Sans;
@@ -66,7 +61,6 @@ h2{
     letter-spacing: 13PX;
     line-height: 55px;
     padding-top: 55px;
-    
 }
 h3{
     font-family: Josefin Sans;
@@ -90,7 +84,6 @@ h3{
     text-align: center;
     padding-left:8%;
 }
-
 
 input{
     width: 300px;
@@ -118,42 +111,19 @@ button{
     cursor: pointer;
     position: relative;
     bottom: 45px;
-
 }
 ::-webkit-input-placeholder {
     color: #ef9b9ba8 ;
 }
-
-
-
-/*
-#formulario .down{
-    position: relative;
-}
-#formulario.invalid  .down:before{
-    content: '';
-    position: absolute;
-    right: 12px;
-    top: 12px;
-    width: 24px;
-    height: 24px;
-    background: url(images/icon-error.svg);
-    background-size: cover;
-    z-index: 1000;
-}*/
 
 .mujer_mobile{
     width: -webkit-fill-available;
     padding-top:8%;
 }
  
-
-
 .women{
     width: 100%;
-    
     display: none;
-    
 }
 
 
@@ -162,10 +132,8 @@ button{
     display: grid;
     grid-template-columns: 55% auto;
     background-image:initial;
-   
     }
     .women{
-    
     height:100vh;
     display:initial
     }
@@ -197,14 +165,11 @@ button{
     padding-right: 60%;
     padding-left: 0%;
     text-align:left;
-    
    }
    .down{
-    
     position: absolute;
-        top: 83%;
-        margin: auto;
-   
+    top: 83%;
+    margin: auto;
    }
    button{
     margin: -80px;
