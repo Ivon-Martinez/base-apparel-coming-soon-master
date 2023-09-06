@@ -27,7 +27,11 @@ body{
 .down{
     margin: auto;
     text-align: -webkit-center;
-    margin-left: -100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 15%;
+
     
 }
 .correo{
@@ -36,7 +40,6 @@ body{
     background-position-y: center;
     background-position-x: 235px;    
 }
-
 
 
 .demo{
